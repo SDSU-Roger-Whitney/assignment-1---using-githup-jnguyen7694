@@ -1,4 +1,7 @@
-fn  assignment1(x: i64) -> i64{
- 
-    return x +1;
-    }
+pub fn increase(number: i64){
+    println!("{}", number + 1);
+}
+
+fn main() {
+    increase(10);
+}
